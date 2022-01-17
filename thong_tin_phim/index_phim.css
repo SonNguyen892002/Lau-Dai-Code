@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html{
+    width: 1200px;
+    max-width: 100%;
+}
+
+.tong_the{
+   background-color: rgb(75, 73, 73); 
+   width: 100%;
+}
+.Bg{
+    background-color: rgb(75, 73, 73); 
+}
+
+
+
+.conten_trang_chu_ten_phim{
+    background-color: rgb(88, 88, 88);
+}
+
+
+.Than_web--phim_va_noi_dung-Phan_tren{
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+   
+    
+.Than_web--phim_va_noi_dung-Phan_tren--anh_phim{
+    border: 1px solid rgb(192, 129, 51);
+    border-radius: 4px;
+    
+}
+.img_phim{
+    border-radius: 5px;
+    margin-left: 12px;
+    height: auto;
+    width: 90%;
+    margin-top: 5px;
+    
+}.nut_xem_phim_va_traler{
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.A_traler{
+    color: #fff;
+    background-color: darkturquoise;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    
+}
+.A_traler:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(4, 177, 180);
+}
+.A_xem_phim{
+    color: #fff;
+    background-color: rgb(236, 117, 73);;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+    height: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.A_xem_phim:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.khung_phim_va_thong_tin_chi_tiet{
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    
+    
+}
+.ten_phims{
+    color: rgb(255, 154, 95);
+    background-color: rgb(39,39,39);
+    
+    
+}
+.thong_tin_chi_tiet{
+    color: #fff;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 6px;
+   
+    
+    
+}
+
+.thong_tin_chi_tiet{
+    font-size: 20px;
+}
+.thong_tin_chi_tiet li {
+    margin-left: 3px;
+}
+.danh_gia{
+    background-color: rgb(85, 85, 85);
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+    
+    
+    
+.danh_gia h3 {
+    color: #fff;
+}
+.danh_gia div{
+    color: #fff;
+    margin-top: -15px;
+}
+.sao_danh_gia{
+    color: rgb(255, 166, 0);
+}
+
+ /* đây là đoạn code tóm tắt nội dung của phim */
+.Than_web-phim_va_noi_dung-Phan_duoi{
+    
+    background-color: rgb(39,39,39);
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.Than_web-phim_va_noi_dung-Phan_duoi h1{
+    color: rgb(255, 120, 67);
+    
+    
+}
+.Than_web-phim_va_noi_dung-Phan_duoi p{
+    color: #fff;
+    width: 97%;
+    
+    
+}
+
+/* phần phim sắp chiếu */
+
+.Than_web-phim_sap_chieu{
+    background-color: rgb(39,39,39);
+    
+    border-radius: 10px;
+    
+}
+.ten_phim_sap_chieu{
+    color: rgb(255, 159, 103);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.Than_web-phim_sap_chieu{
+    margin-left: 15px;
+}
+.cai_khung_phim{
+    padding-left: 15px;
+}
+.dong_ke{
+    background-color: rgb(189, 189, 189);
+    height: 1px;
+    width: auto;
+    margin-top: 15px;
+}
+.Phim_sap_chieu{
+    display: flex;
+}
+
+.phim_avengers{
+   
+    width: 125px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+.tens {
+    color: #fff;
+    font-size: 17px;
+}
+.cong_chieu{
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.sao_danh_gia{
+    margin-top: 28px;
+}
+
+
+/* đây là phần bình luận của người dùng */
+
+.commets{
+    
+    background-color: rgb(39, 39, 39); 
+    
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.commets_binh_luan h3{
+    color: #fff;
+    font-size: 20px;
+    
+}
+.dongke_commets{
+    color: rgb(122, 72, 72);
+    height: 1px;
+    width: 30px;
+    padding-top: 3px;
+}
+
+.Them_binh_luan{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.Dang_Binh_luan{
+    color:#fff;
+    background-color: rgb(236, 117, 73);
+    margin-left: 5px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.Nguoi_commets{
+    margin-top: 25px;
+}
+.img_va_ten_Nguoi_commets{
+    display: flex;
+    margin-left: 25px;
+}
+.Rem_Avatar{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ten_Nguoi_commets{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 65px;
+}
+.noi_dung_commets p{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+/* đây là phần phim liên quan có thể bạn sẽ thích */
+.khung_phan_co_the_ban_se_thich{
+    margin-top: 20px;
+    background-color: rgb(39, 39, 39); 
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 127px;
+}
+.co_the_ban_se_thich{
+    margin-left: 20px;
+    color: rgb(236, 117, 73);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.dong_ke_co_the_ban_se_thich{
+    margin-top: 5px;
+    color: rgb(255, 159, 103);
+    width: 20px;
+    height: 3px;
+    margin-left: 10px;
+}
+.khung_phim_lien_quan{
+    display: flex;
+    position: relative;
+}
+.cac_phim_lien_quan_img{
+    /* position: relative; */
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 265px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    
+}
+.HD_Vietsub{
+    position: absolute;
+   top: 15px;
+   left: -5px;
+   background-color:rgb(255, 159, 103); ;
+   color: #fff;
+   font-size: 20px;
+   z-index: 2;
+   font-weight: 500; 
+   
+}
+.ten_phim_lien_quan{
+    color: #fff;
+     margin-left: 100px;
+     font-size: 25px;
+     cursor: pointer; 
+   
+}
+.ten_phim_lien_quan:hover{
+    color:rgb(255, 159, 103); ;
+}
