@@ -1,0 +1,92 @@
+package com.wedsitefim.model;
+
+public class fimModel{
+	
+	private Long id;
+	private String tenfim;
+	private String filefim;
+	private String filetrailer;
+	private String poster;
+	private Long theloaiId;
+	private Long danhmucId;
+	private String dienvien;
+	private String fimday;
+	private Long sotap;
+	private String quocgia;
+	private String noidung;
+	
+	public Long getId() {
+		return id;
+	}
+	public String getTenfim() {
+		return tenfim;
+	}
+	public String getFilefim() {
+		return filefim;
+	}
+	public String getFiletrailer() {
+		return filetrailer;
+	}
+	public String getPoster() {
+		return poster;
+	}
+	public Long getTheloaiId() {
+		return theloaiId;
+	}
+	public Long getDanhmucId() {
+		return danhmucId;
+	}
+	public String getDienvien() {
+		return dienvien;
+	}
+	public String getFimday() {
+		return fimday;
+	}
+	public Long getSotap() {
+		return sotap;
+	}
+	public String getQuocgia() {
+		return quocgia;
+	}
+	public String getNoidung() {
+		return noidung;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setTenfim(String tenfim) {
+		this.tenfim = tenfim;
+	}
+	public void setFilefim(String filefim) {
+		this.filefim = filefim;
+	}
+	public void setFiletrailer(String filetrailer) {
+		this.filetrailer = filetrailer;
+	}
+	public void setPoster(String poster) {
+		this.poster = poster;
+	}
+	public void setTheloaiId(Long theloaiId) {
+		this.theloaiId = theloaiId;
+	}
+	public void setDanhmucId(Long danhmucId) {
+		this.danhmucId = danhmucId;
+	}
+	public void setDienvien(String dienvien) {
+		this.dienvien = dienvien;
+	}
+	public void setFimday(String fimday) {
+		this.fimday = fimday;
+	}
+	public void setSotap(Long sotap) {
+		this.sotap = sotap;
+	}
+	public void setQuocgia(String quocgia) {
+		this.quocgia = quocgia;
+	}
+	public void setNoidung(String noidung) {
+		this.noidung = noidung;
+	}
+	
+	
+}

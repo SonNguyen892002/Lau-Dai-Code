@@ -1,0 +1,23 @@
+package com.wedsitefim.service.impl;
+
+import java.util.List;
+
+import com.wedsitefim.dao.IfimDAO;
+import com.wedsitefim.dao.impl.fimDAO;
+import com.wedsitefim.model.fimModel;
+import com.wedsitefim.service.IFimService;
+
+public class FimService implements IFimService{
+	
+	private IfimDAO fimDao;
+	
+	public FimService() {
+		fimDao = new fimDAO();
+	}
+
+	@Override
+	public List<fimModel> findAll() {
+		return fimDao.findAll();
+	}
+
+}

@@ -1,0 +1,49 @@
+package com.wedsitefim.controller.wed;
+
+import java.io.IOException;
+
+//import javax.inject.Inject;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.wedsitefim.service.ICategoryService;
+import com.wedsitefim.service.INewService;
+import com.wedsitefim.service.impl.CategoryService;
+import com.wedsitefim.service.impl.NewService;
+
+@SuppressWarnings("unused")
+@WebServlet(urlPatterns = {"/trang-chu"})
+public class HomeController extends HttpServlet {
+
+//	@Inject
+	private ICategoryService categoryService;
+	private INewService newService ;
+	
+	public HomeController() {
+		categoryService = new CategoryService();
+		newService = new NewService();
+//		
+	}
+
+	
+	
+	private static final long serialVersionUID = 1042388856279905486L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		request.setAttribute("fimes", categoryService.findAll());
+		RequestDispatcher rd = request.getRequestDispatcher("/views/wed/phimmoi.jsp");// trả về trang mong muốn
+		rd.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

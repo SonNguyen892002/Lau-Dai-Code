@@ -1,0 +1,44 @@
+package com.wedfim.login;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/RegisterServlet")
+public class RegisterServlet extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		req.getRequestDispatcher("views/register.jsp").forward(req,resp);
+	}
+	
+	@Override
+	protected void doPost (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String username = req.getParameter("username");
+		String password = req.getParameter("password");
+		String gender = req.getParameter("gender");
+		String married = req.getParameter("married");
+		String nationality = req.getParameter("nationality");
+		
+		String[] favorites = req.getParameterValues("favorites");
+		String note = req.getParameter("note");
+		
+		req.setAttribute("username", username);
+		req.setAttribute("password", password);
+		req.setAttribute("gender", gender);
+		req.setAttribute("married", married);
+		req.setAttribute("nationality", nationality);
+		StringBuilder sd = new StringBuilder();
+		for (String item : favorites)  {
+			sd.append(item).append(" , ");
+		}
+		req.setAttribute("favorites", sd.toString());
+		req.setAttribute("note", note);
+		req.getRequestDispatcher("views/register.jsp").forward(req,resp);
+	}
+}

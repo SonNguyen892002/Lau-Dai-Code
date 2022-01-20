@@ -1,0 +1,590 @@
+<%@ page pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main">
+    
+    	<%@ include file="header.jsp" %>
+
+        <div class="home-heading display-flex">
+            <div class="home-heading__textone">
+                
+                <div class="home-image">
+                    <img width="700px" height="380px" id="img" src="./images/anime-ốc sên.jpg" alt="">
+                </div>
+
+                <div class="total-heading display-flex">
+                    <span class="circle action"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+            </div>
+
+            <div class="home-heading__texttwo">
+                <div class="move-oc__one">
+                    <a href="#">
+                        <img width="90%" src="./images/anime-ốc sên.jpg" alt="">
+                        <div class="backgr"></div>
+                        <h1>Xem ngay</h1>
+                    </a>
+                </div>
+                <div class="move-oc__one">
+                    <a href="#">
+                        <img width="90%" src="./images/anime-ốc sên.jpg" alt="">
+                        <div class="backgr"></div>
+                        <h1>Xem ngay</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="container">
+
+            <!-- TEMPLATE LIST -->
+            
+            <div class="container-title">
+                <h1>PHIM HÓT:</h1>
+            </div>
+    
+            <!-- MOVIE IMAGE -->
+            <div class="move-new">
+                <!-- <div class="icons">
+                    <i class="fas fa-chevron-left"></i>
+                </div> -->
+
+                <div class="container-slider container-slider__subport display-grid__for autoplay">
+
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product ml">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- <div class="icons">
+                    <i class="fas fa-chevron-right"></i>
+                </div> -->
+            </div>
+        </section>
+
+        <div class="moiandsc display-flex">
+            <section class="container one">
+
+                <!-- TEMPLATE LIST -->
+                
+                <div class="container-title">
+                    <h1>PHIM MỚI:</h1>
+                </div>
+        
+                <!-- MOVIE IMAGE -->
+                <div class="container-slider display-grid__for">
+    
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="product">
+                            <div class="status">
+                                <h1>Full 20/20 vietsub</h1>
+                            </div>
+        
+                            <img src="./images/img-avengers.jpg" alt="">
+        
+                            <div class="movie-name">
+                                <h2>Avengers</h2>
+                            </div>
+        
+                            <div class="icon-play">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                </div>
+            </section>
+
+            <section class="container two">
+
+                <!-- TEMPLATE LIST -->
+                
+                <div class="container-title container-title__sub">
+                    <h1>PHIM SẮP CHIẾU:</h1>
+                </div>
+        
+                <!-- MOVIE IMAGE -->
+                <div class="container-slider container-slider__sub ">
+
+                        <a href="#" class="product-sub display-flex">
+                            <div class="img-sub">
+                                <img src="./images/img-avengers.jpg" alt="">
+                            </div>
+        
+                            <div class="text-sub">
+                                <h1>Avenger Endgame</h2>
+
+                                <h3>Công chiếu: 1/1/2021</h3>
+
+                                <div class="text-sub__icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-sub display-flex">
+                            <div class="img-sub">
+                                <img src="./images/img-avengers.jpg" alt="">
+                            </div>
+        
+                            <div class="text-sub">
+                                <h1>Avenger Endgame</h2>
+
+                                <h3>Công chiếu: 1/1/2021</h3>
+
+                                <div class="text-sub__icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="product-sub display-flex">
+                            <div class="img-sub">
+                                <img src="./images/img-avengers.jpg" alt="">
+                            </div>
+        
+                            <div class="text-sub">
+                                <h1>Avenger Endgame</h2>
+
+                                <h3>Công chiếu: 1/1/2021</h3>
+
+                                <div class="text-sub__icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                        
+                </div>
+
+                <div class="container-title container-title__sub-one height">
+                    <button class="button suport"><a href="#">Xem thêm</a></button>
+                </div>
+            </section>
+        </div>
+
+        <section class="container">
+
+            <!-- TEMPLATE LIST -->
+            
+            <div class="container-title">
+                <h1>PHIM HOẠT HÌNH:</h1>
+            </div>
+    
+            <!-- MOVIE IMAGE -->
+            <div class="container-slider display-grid">
+
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="product">
+                        <div class="status">
+                            <h1>Full 20/20 vietsub</h1>
+                        </div>
+    
+                        <img src="./images/img-avengers.jpg" alt="">
+    
+                        <div class="movie-name">
+                            <h2>Avengers</h2>
+                        </div>
+    
+                        <div class="icon-play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+
+            </div>
+        </section>
+
+		<%@ include file="footer.jsp" %>
+		
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.autoplay').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000000,
+        }); 
+    </script>
+</body>
+</html>

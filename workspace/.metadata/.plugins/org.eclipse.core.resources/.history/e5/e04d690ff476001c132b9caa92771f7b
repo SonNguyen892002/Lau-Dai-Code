@@ -1,0 +1,13 @@
+			<%@include file="/common/taglib.jsp"%>
+			<!-- header -->
+			<%@ include file="/common/wed/header.jsp"%>
+			<!-- header -->
+
+			<!-- body -->
+			<%@ include file="/common/wed/trangchu.jsp"%>
+			<dec:body/>
+			<!-- body -->
+
+			<!-- footer -->
+			<%@ include file="/common/wed/footer.jsp"%>
+			<!-- footer -->

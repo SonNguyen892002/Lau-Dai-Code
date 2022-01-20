@@ -1,0 +1,32 @@
+package com.wedsitefim.mapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.wedsitefim.model.fimModel;
+
+public class FimMapper implements Rowmapper<fimModel>{
+
+	@Override
+	public fimModel mapRow(ResultSet resultSet) {
+		try {
+			fimModel fims = new fimModel();
+			fims.setId(resultSet.getLong("id"));
+			fims.setTenfim(resultSet.getString("tenfim"));
+//			fims.setFilefim(resultSet.getString("filefim"));
+//			fims.setFiletrailer(resultSet.getString("filetrailer"));
+//			fims.setPoster(resultSet.getString("poster"));
+//			fims.setTheloaiId(resultSet.getLong("theloaiId"));
+//			fims.setDanhmucId(resultSet.getLong("danhmucId"));
+//			fims.setDienvien(resultSet.getString("dienvien"));
+//			fims.setFimday(resultSet.getString("fimday"));
+//			fims.setSotap(resultSet.getLong("sotap"));
+//			fims.setQuocgia(resultSet.getString("quocgia"));
+//			fims.setNoidung(resultSet.getString("noidung"));
+			return fims;
+		} catch (SQLException e) {
+			return null;
+		}
+	}
+	
+}

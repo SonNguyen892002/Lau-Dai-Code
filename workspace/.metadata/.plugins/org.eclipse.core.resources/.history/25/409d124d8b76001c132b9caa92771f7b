@@ -1,0 +1,17 @@
+package com.wedsitefim.dao.impl;
+
+import java.util.List;
+
+import com.wedsitefim.dao.IfimDAO;
+import com.wedsitefim.mapper.FimMapper;
+import com.wedsitefim.model.fimModel;
+
+public class fimDAO extends AbstractDAO<fimModel> implements IfimDAO{
+
+	@Override
+	public List<fimModel> findAll() {
+		String sql = "SELECT * FROM fim";
+		return query(sql, new FimMapper());
+	}
+	
+}

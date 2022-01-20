@@ -1,0 +1,9 @@
+package com.wedsitefim.dao;
+
+import java.util.List;
+
+import com.wedsitefim.model.fimModel;
+
+public interface IfimDAO extends GenericDAO<fimModel>{
+	List<fimModel> findAll();
+}

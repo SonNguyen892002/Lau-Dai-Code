@@ -1,0 +1,46 @@
+</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script>
+        const navMenu = document.querySelector('#menu');
+        const navMenu1 = document.querySelector('#menu1');
+        const navDown = document.querySelector('.a');
+        const navDown1 = document.querySelector('.a1');
+
+        function Button() {
+            navMenu.classList.toggle('off');
+            navDown.classList.toggle('down');
+        }
+
+        function Button1() {
+            navMenu1.classList.toggle('off');
+            navDown1.classList.toggle('down');
+        }
+        
+        const ipnElement = document.querySelector('#fullpass');
+        const btnElement = document.querySelector('#btnPassword');
+
+        // step 2
+        btnElement.addEventListener('click', function() {
+          // step 3
+          const currentType = ipnElement.getAttribute('type');
+          // step 4
+          ipnElement.setAttribute(
+            'type',
+            currentType === 'password' ? 'text' : 'password'
+          );
+
+          if(currentType === 'password') {
+            btnElement.classList.add('b');
+          } else {
+            btnElement.classList.remove('b');
+          };
+
+        });
+    </script>
+
+</body>
+</html>

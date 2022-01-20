@@ -1,0 +1,5 @@
+package com.wedsitefim.service;
+
+public interface IFimService {
+
+}

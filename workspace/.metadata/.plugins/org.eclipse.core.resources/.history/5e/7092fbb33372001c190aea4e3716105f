@@ -1,0 +1,9 @@
+package edu.poly.common;
+
+import javax.servlet.http.HttpServlet;
+
+public class CookieUtils {
+	public static String get(String name, HttpServlet request) {
+		
+	}
+}

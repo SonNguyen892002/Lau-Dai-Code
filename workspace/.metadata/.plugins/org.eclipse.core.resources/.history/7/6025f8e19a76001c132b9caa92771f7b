@@ -1,0 +1,95 @@
+package com.wedsitefim.model;
+
+public class FimModel {
+	
+	private Long id;
+	private String tenFim;
+	private String fileFim;
+	private String fileTrailer;
+	private String poster;
+	private Long theloaiId;
+	private Long danhmucId;
+	private String dienvien;
+	private String fimday;
+	private Long sotap;
+	private String quocgia;
+	private String noidung;
+
+	
+	public Long getTheloaiId() {
+		return theloaiId;
+	}
+	public Long getDanhmucId() {
+		return danhmucId;
+	}
+	public void setTheloaiId(Long theloaiId) {
+		this.theloaiId = theloaiId;
+	}
+	public void setDanhmucId(Long danhmucId) {
+		this.danhmucId = danhmucId;
+	}
+	public Long getId() {
+		return id;
+	}
+	public String getTenFim() {
+		return tenFim;
+	}
+	public String getFileFim() {
+		return fileFim;
+	}
+
+	public String getFileTrailer() {
+		return fileTrailer;
+	}
+	public String getPoster() {
+		return poster;
+	}
+	public String getDienvien() {
+		return dienvien;
+	}
+	public String getFimday() {
+		return fimday;
+	}
+	public Long getSotap() {
+		return sotap;
+	}
+	public String getQuocgia() {
+		return quocgia;
+	}
+	public String getNoidung() {
+		return noidung;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setTenFim(String tenFim) {
+		this.tenFim = tenFim;
+	}
+	public void setFileFim(String fileFim) {
+		this.fileFim = fileFim;
+	}
+	public void setFileTrailer(String fileTrailer) {
+		this.fileTrailer = fileTrailer;
+	}
+	public void setPoster(String poster) {
+		this.poster = poster;
+	}
+	public void setDienvien(String dienvien) {
+		this.dienvien = dienvien;
+	}
+	public void setFimday(String fimday) {
+		this.fimday = fimday;
+	}
+	public void setSotap(Long sotap) {
+		this.sotap = sotap;
+	}
+	public void setQuocgia(String quocgia) {
+		this.quocgia = quocgia;
+	}
+	public void setNoidung(String noidung) {
+		this.noidung = noidung;
+	}
+	
+	
+}
+

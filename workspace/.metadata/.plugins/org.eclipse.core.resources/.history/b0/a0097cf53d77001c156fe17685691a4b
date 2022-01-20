@@ -1,0 +1,11 @@
+			<!-- header -->
+			<%@ include file="/common/wed/header.jsp"%>
+			<!-- header -->
+
+			<!-- body -->
+			<%@ include file="/common/wed/trangchu.jsp"%>
+			<!-- body -->
+
+			<!-- footer -->
+			<%@ include file="/common/wed/footer.jsp"%>
+			<!-- footer -->

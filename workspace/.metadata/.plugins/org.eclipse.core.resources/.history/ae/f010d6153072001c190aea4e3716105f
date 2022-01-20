@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Đăng ký</h1>
+	<form action="RegisterServlet" method="post" enctype="multipart/form-data">
+		Name: <input type="text" name="name" placeholder="Name"> <br>
+		Image: <input type="file" name="image" placeholder="Image"> <br>
+		
+		<input type="submit" value="Update"> <br>
+		<input type="reset" value="Reset"> <br>
+	</form>
+</body>
+</html>

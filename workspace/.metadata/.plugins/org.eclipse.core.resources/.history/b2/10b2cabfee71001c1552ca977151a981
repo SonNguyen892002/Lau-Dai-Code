@@ -1,0 +1,21 @@
+package com.wedsitefim.service.impl;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import com.wedsitefim.dao.ICategoryDAO;
+import com.wedsitefim.model.CategoryModel;
+import com.wedsitefim.service.ICategoryService;
+
+public class CategoryService implements ICategoryService{
+	
+	@Inject
+	private ICategoryDAO categoryDao;
+	
+	@Override
+	public List<CategoryModel> findAll() {
+		return categoryDao.finAll();
+	}
+
+}

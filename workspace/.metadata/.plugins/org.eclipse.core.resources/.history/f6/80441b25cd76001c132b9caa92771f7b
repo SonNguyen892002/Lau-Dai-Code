@@ -1,0 +1,62 @@
+package com.wedsitefim.controller.wed;
+
+import java.io.IOException;
+
+//import javax.inject.Inject;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.wedsitefim.model.NewModel;
+import com.wedsitefim.model.UserfimModel;
+import com.wedsitefim.service.ICategoryService;
+import com.wedsitefim.service.IFimService;
+import com.wedsitefim.service.INewService;
+import com.wedsitefim.service.IUserfimService;
+import com.wedsitefim.service.impl.CategoryService;
+import com.wedsitefim.service.impl.FimService;
+import com.wedsitefim.service.impl.NewService;
+import com.wedsitefim.service.impl.UserfimService;
+
+@WebServlet(urlPatterns = {"/trang-chu"})
+public class HomeController extends HttpServlet {
+
+//	@Inject
+	private IUserfimService userfimService;
+	private ICategoryService categoryService;
+	private INewService newService ;
+	private IFimService fimService;
+	
+	public HomeController() {
+		categoryService = new CategoryService();
+		newService = new NewService();
+		userfimService = new UserfimService();
+		fimService = new FimService();
+//		
+	}
+
+	
+	
+	private static final long serialVersionUID = 1042388856279905486L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+//		request.setAttribute("news", newService.findByCategoryId());
+//		request.setAttribute("fimes", fimService.findAll());
+		UserfimModel model = new UserfimModel();
+		model.setListResult(userfimService.findAll());
+		request.setAttribute("model", model);
+		RequestDispatcher rd = request.getRequestDispatcher("/views/wed/trangchu.jsp");// trả về trang mong muốn
+		rd.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

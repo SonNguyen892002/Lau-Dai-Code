@@ -1,0 +1,11 @@
+package com.wedsitefim.dao.impl;
+
+import java.util.List;
+
+import com.wedsitefim.dao.IUserDAO;
+import com.wedsitefim.model.UserfimModel;
+
+public class UserfimDAO extends AbstractDAO<UserfimDAO>{
+
+
+}

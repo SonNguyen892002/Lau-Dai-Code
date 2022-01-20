@@ -1,0 +1,359 @@
+:root{
+    --color-orange: #FF7A00;
+    --color-white: rgb(255, 255, 255);
+    --background-black: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html{
+    width: 1200px;
+    max-width: 100%;
+}
+
+.p0{
+    padding:0 !important;
+}
+
+.tong_the{
+   background-color: rgb(75, 73, 73); 
+   width: 100%;
+}
+
+.black{
+    background-color: #000;
+}
+
+.m0{
+    margin: 0 !important;
+}
+
+.mt{
+    margin-top: 20vh !important;
+}
+
+.mart{
+    margin-top: 20px !important;
+}
+
+.mart .cam{
+    color:#fff;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.pt{
+    padding-top: 20px;
+}
+
+.conten_trang_chu_ten_phim{
+    background-color: rgb(88, 88, 88);
+}
+
+.Than_web--phim_va_noi_dung-Phan_tren{
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+   
+.Than_web--phim_va_noi_dung-Phan_tren--anh_phim{
+    border: 1px solid rgb(192, 129, 51);
+    border-radius: 4px;
+    
+}
+.img_phim{
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.khung_phim_va_thong_tin_chi_tiet{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.center{
+    justify-content: space-around;
+}
+
+.ct{
+    text-align: center;
+    border-radius:16px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.ct a{
+    display:block;
+    padding: 10px 0;
+    color:var(--color-white);
+}
+
+.ct a:hover,
+.ct:hover{
+    opacity: 1;
+    color: #000;
+}
+
+.cam:hover{
+    opacity: 1;
+}
+
+.blue{
+    background: rgb(0, 253, 219);
+    opacity: 0.7;
+}
+
+.cam{
+    background: var(--color-orange);
+    opacity: 0.7;
+}
+
+.thong_tin_chi_tiet{
+    color: #fff;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+.thong_tin_chi_tiet{
+    font-size: 20px;
+}
+.thong_tin_chi_tiet li {
+    margin-left: 3px;
+}
+.danh_gia{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.heigh{
+    height: 124vh !important;
+    overflow-y: auto;
+}
+
+.pr{
+    padding-right: 0 !important;
+    margin-left: 4px !important;
+}
+
+.xam{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 20px 10px;
+    line-height: 2;
+}
+
+.dg{
+    font-size: 1.6rem;
+}
+    
+.danh_gia h3 {
+    color: #fff;
+}
+.danh_gia div{
+    color: #fff;
+    margin-top: -15px;
+}
+.sao_danh_gia{
+    color: rgb(255, 166, 0);
+}
+
+.Than_web-phim_va_noi_dung-Phan_duoi{
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+h1{
+    font-size:1.6rem !important;
+}
+
+p{
+    color: #fff;
+    text-align:justify;
+}
+
+.Than_web-phim_sap_chieu{
+    background-color: rgb(39,39,39);
+    border-radius: 10px;
+}
+
+.ten_phim_sap_chieu{
+    color: rgb(255, 159, 103);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.Than_web-phim_sap_chieu{
+    margin-left: 15px;
+}
+.cai_khung_phim{
+    padding-left: 15px;
+}
+.dong_ke{
+    background-color: rgb(189, 189, 189);
+    height: 1px;
+    width: auto;
+    margin-top: 15px;
+}
+.Phim_sap_chieu{
+    display: flex;
+}
+
+.phim_avengers{
+   
+    width: 125px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+.tens {
+    color: #fff;
+    font-size: 17px;
+}
+.cong_chieu{
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.sao_danh_gia{
+    margin-top: 28px;
+}
+
+
+/* Ä‘Ã¢y lÃ  pháº§n bÃ¬nh luáº­n cá»§a ngÆ°á»�i dÃ¹ng */
+
+.commets{
+    margin-top: 4px; 
+    padding: 10px 30px !important;
+}
+
+.cmt{
+    padding: 20px;
+}
+
+.ten_Nguoi_commets{
+    color: #fff;    
+}
+
+.commets_binh_luan{
+    margin: 4px 0;
+}
+
+.w1{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:none;
+    padding: 6px 20px;
+}
+
+.commets_binh_luan h1{
+    display:inline;
+    border-bottom: 2px solid var(--color-orange);
+}
+.dongke_commets{
+    color: rgb(122, 72, 72);
+    height: 1px;
+    width: 30px;
+    padding-top: 3px;
+}
+
+.Them_binh_luan{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.Dang_Binh_luan{
+    color:#fff;
+    background-color: rgb(236, 117, 73);
+    margin-left: 5px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.Rem_Avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transform: translateX(100%);
+}
+.noi_dung_commets p{
+    padding-left: 24px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Ä‘Ã¢y lÃ  pháº§n phim liÃªn quan cÃ³ thá»ƒ báº¡n sáº½ thÃ­ch */
+.khung_phan_co_the_ban_se_thich{
+    margin-top: 20px; 
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 127px;
+}
+.co_the_ban_se_thich{
+    margin-left: 20px;
+    color: rgb(236, 117, 73);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.dong_ke_co_the_ban_se_thich{
+    margin-top: 5px;
+    color: rgb(255, 159, 103);
+    width: 20px;
+    height: 3px;
+    margin-left: 10px;
+}
+.khung_phim_lien_quan{
+    display: flex;
+    position: relative;
+}
+.cac_phim_lien_quan_img{
+    /* position: relative; */
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 265px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    
+}
+.HD_Vietsub{
+    position: absolute;
+   top: 15px;
+   left: -5px;
+   background-color:rgb(255, 159, 103); ;
+   color: #fff;
+   font-size: 20px;
+   z-index: 2;
+   font-weight: 500; 
+   
+}
+.ten_phim_lien_quan{
+    color: #fff;
+     margin-left: 100px;
+     font-size: 25px;
+     cursor: pointer; 
+   
+}
+.ten_phim_lien_quan:hover{
+    color:rgb(255, 159, 103); ;
+}

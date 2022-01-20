@@ -1,0 +1,10 @@
+package com.wedsitefim.dao;
+
+import java.util.List;
+
+import com.wedsitefim.model.FimModel;
+
+public interface IFimDAO extends GenericDAO<FimModel>{
+	List<FimModel> findAll(int offset, int limit);
+	int getTotalItem();
+}

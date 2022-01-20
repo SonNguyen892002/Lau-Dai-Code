@@ -1,0 +1,18 @@
+package com.wedsitefim.model;
+
+public class fimModel{
+	
+	private Long id;
+	private String tenfim;
+	private String filefim;
+	private String filetrailer;
+	private String poster;
+	private Long theloaiId;
+	private Long danhmucId;
+	private String dienvien;
+	private String fimday;
+	private Long sotap;
+	private String quocgia;
+	private String noidung;
+	
+}

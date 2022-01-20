@@ -1,0 +1,5 @@
+package com.wedsitefim.dao;
+
+public interface fim {
+
+}

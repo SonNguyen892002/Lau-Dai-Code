@@ -1,0 +1,40 @@
+<%@ page pageEncoding="utf-8"%>
+
+<div class="col-xl-12 col-lg-12 col-sm-12 col-12 p0">
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top row">
+            <div class="footer-top__left col-xl-8">
+                <p>
+                    Xem phim hay miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng.
+                    Wedsite có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
+                    <br> <br>
+                    Website với giao diện trực quan, thuận tiện, tốc độ tải nhanh, với độ tin cậy cao hứa
+                    hẹn sẽ đem lại những trải nghiệm tốt nhất cho người dùng.
+                </p>
+            </div>
+
+            <div class="footer-top__right col-xl-4">
+                <div class="footer-top__right--left">
+                    <p>
+                        <a href="#">Quy định</a>
+                        <a href="#">Chính sách riêng tư</a>
+                        <a href="#">Điều khoản chung</a>
+                    </p>
+                </div>
+
+                <div class="footer-top__right--right">
+                    <p>
+                        <a href="#">Giới thiệu</a>
+                        <a href="#">Trang chủ</a>
+                        <a href="#">Facebook</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-down">
+            <h2>Wedsite được thực hiện bởi nhóm code: LÂU ĐÀI CODER.</h2>
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phim mới</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/test/paginationjs-master/dist/pagination.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <section class="container-sub">
+
+            <!-- TEMPLATE LIST -->
+            <div class="container-title">
+                <h1>PHIM MỚI:</h1>
+            </div>
+        
+        </section>
+
+        <div class="wrap_page">
+            <div class="data-container"></div>
+            <div id="pagination-demo1"></div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./paginationjs-master/src/pagination.js"></script>
+
+    <script>
+        (function (name) {
+            var container = $('#pagination-' + name);
+            var sources = function () {
+                var result = [];
+
+                for (var i = 1; i < 100; i++) {
+                    result.push('<div class="status"><h1>Full 20/20 vietsub</h1></div><img src="./images/img-avengers.jpg" alt=""><div class="movie-name"><h2>phim mới ' + i + '</h2></div><div class="icon-play"><i class="fas fa-play"></i></div>');
+                }
+
+                return result;
+            }();
+
+            var options = {
+                dataSource: sources,
+                pageSize: 20,
+                callback: function (response, pagination) {
+                    window.console && console.log(response, pagination);
+
+                    var dataHtml = '<div class="container-slider display-grid">';
+
+                    $.each(response, function (index, item) {
+                        dataHtml += '<a href="#" class="product">' + item + '</a>';
+                    });
+
+                    dataHtml += '</div>';
+
+                    container.prev().html(dataHtml);
+                }
+            };
+
+            //$.pagination(container, options);
+
+            container.addHook('beforeInit', function () {
+                window.console && console.log('beforeInit...');
+            });
+            container.pagination(options);
+
+            container.addHook('beforePageOnClick', function () {
+                window.console && console.log('beforePageOnClick...');
+                //return false
+            });
+        })('demo1');
+    </script>
+</body>
+
+</html>

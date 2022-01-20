@@ -1,0 +1,10 @@
+package com.wedsitefim.dao;
+
+import java.util.List;
+
+import com.wedsitefim.model.TheloaiModel;
+import com.wedsitefim.model.UserfimModel;
+
+public class ITheLoai extends GenericDAO<TheloaiModel>{
+	List<UserfimModel> findAll();
+}

@@ -1,0 +1,20 @@
+package dao;
+
+import model.khachhang;
+
+public class khachhangDAO implements IObjectDAO {
+
+	@Override
+	public boolean themtaikhoan(Object obj) {
+		khachhang kh = (khachhang)obj;
+		new MyConnectDB().thucThiSQL("insert into DangNhap values('"+kh.getUserName()+"','"+kh.getPass()+"','"+kh.getName()+"')");
+		return false;
+	}
+
+	@Override
+	public boolean kiemtradangnhap(String uesrname) {
+		
+		return false;
+	}
+
+}

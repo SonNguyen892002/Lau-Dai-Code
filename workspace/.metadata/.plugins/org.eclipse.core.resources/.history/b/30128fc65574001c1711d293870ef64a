@@ -1,0 +1,39 @@
+<%@ page pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lâu đài coder</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+	
+		<a class="reply" href="./phimmoi.jsp"><i class="fas fa-reply"></i>Quay lại trang chủ</a>
+        <a class="reply" href="./register.jsp"><i class="fas fa-user-plus"></i>Đăng ký</a>
+        <div id="user_login" class="box-content">
+            <h1>Đăng nhập</h1>
+            <form action="#" method="post" autocomplete="off">
+                <div class="dad display-flex">
+                    <i class="fas fa-users sub"></i>
+                    <input type="text" name="username" value="" placeholder="Nhập tài khoản của bạn"><br>
+                </div>
+
+                <div class="dad display-flex">
+                    <i class="fas fa-key"></i>
+                    <input type="password" name="password" id="ipnPassword" value="" placeholder="**********">
+                    <i class="fas fa-eye" id="btnPassword" ></i>
+                </div>
+
+                <button class="button">Đăng nhập</button>
+                <!-- <input class="btn" type="submit" value="Đăng nhập"> -->
+                
+                <a href="#">Bạn quên mật khẩu?</a>
+               
+            </form>
+        </div>
+        
+        <script src="./sub.js"></script>
+	
+</body>
+</html>

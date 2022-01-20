@@ -1,0 +1,5 @@
+package com.wedfim.login;
+
+public class HomeServlet {
+
+}

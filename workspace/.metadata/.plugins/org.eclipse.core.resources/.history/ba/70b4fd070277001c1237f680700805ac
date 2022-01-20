@@ -1,0 +1,9 @@
+			<!-- header -->
+			<%@ include file="/common/admin/header.jsp"%>
+			<!-- header -->
+			
+			<%@ include file="/template/admin/admin.html"%>
+			
+			<!-- footer -->
+			<%@ include file="/common/admin/footer.jsp"%>
+			<!-- footer -->

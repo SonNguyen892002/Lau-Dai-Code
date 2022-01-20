@@ -1,0 +1,54 @@
+package com.wedsitefim.service.impl;
+
+import java.sql.Timestamp;
+import java.util.List;
+
+import com.wedsitefim.dao.INewDAO;
+import com.wedsitefim.dao.impl.NewDAO;
+import com.wedsitefim.model.CategoryModel;
+import com.wedsitefim.model.NewModel;
+import com.wedsitefim.service.INewService;
+
+public class NewService implements INewService{
+
+	private INewDAO newDao;
+	
+	public NewService() {
+		newDao = new NewDAO();
+	}
+
+	@Override
+	public List<NewModel> findByCategoryId(Long categoryId) {
+		return newDao.findByCategoryId(categoryId);
+	}
+
+	@Override
+	public NewModel save(NewModel newModel) {
+		Long newId = newDao.save(newModel);
+		System.out.println(newId);
+		return null;
+	}
+
+	@Override
+	public NewModel update(NewModel updateNew) {
+		NewModel oldNew = newDao.findOne(updateNew.getId());
+		updateNew.setCreatedDate(oldNew.getCreatedDate());
+		updateNew.setCreatedBy(oldNew.getCreatedBy());
+		newDao.update(updateNew);
+		return newDao.findOne(updateNew.getId());
+	}
+
+	@Override
+	public void delete(Long[] ids) {
+		for (long id : ids) {
+			newDao.delete(id);
+		}
+	}
+
+	@Override
+	public List<NewModel> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}	

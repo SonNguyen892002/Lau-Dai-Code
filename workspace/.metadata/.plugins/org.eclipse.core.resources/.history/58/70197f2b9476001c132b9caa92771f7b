@@ -1,0 +1,9 @@
+package com.wedsitefim.service;
+
+import java.util.List;
+
+import com.wedsitefim.model.fimModel;
+
+public interface IFimService {
+	List<fimModel> findAll();
+}

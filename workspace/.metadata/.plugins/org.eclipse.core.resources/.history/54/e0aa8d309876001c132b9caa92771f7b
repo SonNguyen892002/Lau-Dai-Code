@@ -1,0 +1,100 @@
+package com.wedsitefim.model;
+
+public class FimModel {
+	
+	private Long id;
+	private String tenFim;
+	private String fileFim;
+	private String password;
+	private String fileTrailer;
+	private String poster;
+	private Long theloai_id;
+	private Long danhmuc_id;
+	private String dienvien;
+	private String fimday;
+	private Long sotap;
+	private String quocgia;
+	private String noidung;
+	
+	public Long getId() {
+		return id;
+	}
+	public String getTenFim() {
+		return tenFim;
+	}
+	public String getFileFim() {
+		return fileFim;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public String getFileTrailer() {
+		return fileTrailer;
+	}
+	public String getPoster() {
+		return poster;
+	}
+	public Long getTheloai_id() {
+		return theloai_id;
+	}
+	public Long getDanhmuc_id() {
+		return danhmuc_id;
+	}
+	public String getDienvien() {
+		return dienvien;
+	}
+	public String getFimday() {
+		return fimday;
+	}
+	public Long getSotap() {
+		return sotap;
+	}
+	public String getQuocgia() {
+		return quocgia;
+	}
+	public String getNoidung() {
+		return noidung;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setTenFim(String tenFim) {
+		this.tenFim = tenFim;
+	}
+	public void setFileFim(String fileFim) {
+		this.fileFim = fileFim;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public void setFileTrailer(String fileTrailer) {
+		this.fileTrailer = fileTrailer;
+	}
+	public void setPoster(String poster) {
+		this.poster = poster;
+	}
+	public void setTheloai_id(Long theloai_id) {
+		this.theloai_id = theloai_id;
+	}
+	public void setDanhmuc_id(Long danhmuc_id) {
+		this.danhmuc_id = danhmuc_id;
+	}
+	public void setDienvien(String dienvien) {
+		this.dienvien = dienvien;
+	}
+	public void setFimday(String fimday) {
+		this.fimday = fimday;
+	}
+	public void setSotap(Long sotap) {
+		this.sotap = sotap;
+	}
+	public void setQuocgia(String quocgia) {
+		this.quocgia = quocgia;
+	}
+	public void setNoidung(String noidung) {
+		this.noidung = noidung;
+	}
+	
+	
+}
+

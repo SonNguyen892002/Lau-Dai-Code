@@ -1,0 +1,9 @@
+package com.wedsitefim.dao;
+
+import java.util.List;
+
+import com.wedsitefim.model.CategoryModel;
+
+public interface IfimDAO extends GenericDAO<CategoryModel>{
+	List<CategoryModel> findAll();
+}
